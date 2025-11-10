@@ -20,3 +20,19 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+/* blog styles - comment layout & nested reply indentation */
+.media {
+    margin-bottom: 20px;
+}
+
+.media-body {
+    flex: 1;
+}
+
+/* indent replies - visual hierarchy for nested comment threads */
+.media .media {
+    margin-left: 40px;
+    border-left: 2px solid #ddd;
+    padding-left: 10px;
+}

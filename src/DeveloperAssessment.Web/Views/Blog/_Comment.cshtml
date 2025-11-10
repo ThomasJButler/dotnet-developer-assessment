@@ -1,0 +1,27 @@
+@model DeveloperAssessment.Web.Models.Comment
+
+@* recursive partial view for comments - displays comment & any nested replies *@
+@* uses media object structure with avatar for user identification *@
+
+<div class="media mb-4">
+    <img class="d-flex mr-3 rounded-circle"
+         src="https://eu.ui-avatars.com/api/?name=@Uri.EscapeDataString(Model.Name)"
+         alt="@Model.Name"
+         style="width: 50px; height: 50px;">
+
+    <div class="media-body">
+        <h5 class="mt-0">@Model.Name <small><em>(@Model.Date.ToString("MMMM d, yyyy - HH:mm"))</em></small></h5>
+        @Model.Message
+
+        <!-- show replies if any - recursive partial view for nested comments -->
+        @if (Model.Replies != null && Model.Replies.Any())
+        {
+            <div style="margin-left: 40px; margin-top: 10px;">
+                @foreach (var reply in Model.Replies)
+                {
+                    @Html.Partial("_Comment", reply)
+                }
+            </div>
+        }
+    </div>
+</div>
