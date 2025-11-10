@@ -1,7 +1,7 @@
 @model DeveloperAssessment.Web.Models.Comment
 
 @* recursive partial view for comments - displays comment & any nested replies *@
-@* uses media object structure with avatar for user identification *@
+@* uses media object structure with avatar, reply button & nested reply forms *@
 
 <div class="media mb-4">
     <img class="d-flex mr-3 rounded-circle"
@@ -12,6 +12,28 @@
     <div class="media-body">
         <h5 class="mt-0">@Model.Name <small><em>(@Model.Date.ToString("MMMM d, yyyy - HH:mm"))</em></small></h5>
         @Model.Message
+
+        <!-- reply button - triggers javascript to show/hide reply form -->
+        <br>
+        <button class="btn btn-sm btn-link" onclick="toggleReply('@Model.Name')">Reply</button>
+
+        <!-- reply form (hidden by default) - allows nested comment submission -->
+        <div id="reply-@Model.Name.Replace(" ", "")" style="display:none; margin-top:10px;">
+            <form asp-action="AddReply" asp-route-id="@ViewContext.RouteData.Values["id"]" method="post">
+                <input type="hidden" name="parentName" value="@Model.Name" />
+                <div class="form-group">
+                    <input name="Name" class="form-control form-control-sm" placeholder="Your Name" required />
+                </div>
+                <div class="form-group">
+                    <input name="EmailAddress" type="email" class="form-control form-control-sm" placeholder="Email" required />
+                </div>
+                <div class="form-group">
+                    <textarea name="Message" class="form-control form-control-sm" rows="2" placeholder="Reply" required></textarea>
+                </div>
+                <input type="hidden" name="BlogPostId" value="@ViewContext.RouteData.Values["id"]" />
+                <button type="submit" class="btn btn-primary btn-sm">Reply</button>
+            </form>
+        </div>
 
         <!-- show replies if any - recursive partial view for nested comments -->
         @if (Model.Replies != null && Model.Replies.Any())

@@ -22,7 +22,36 @@
             @Html.Raw(Model.HtmlContent)
             <hr>
 
-            <!-- blog post comments - displays existing comments from json -->
+            <!-- blog post comment form - allows users to submit new comments -->
+            <div class="card my-4">
+                <h5 class="card-header">Leave a Comment:</h5>
+                <div class="card-body">
+                    <form asp-action="AddComment" asp-route-id="@Model.Id" method="post">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label>Name</label>
+                                <input name="Name" class="form-control" placeholder="Name" required />
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label>Email Address</label>
+                                <input name="EmailAddress" type="email" class="form-control" placeholder="Email Address" required />
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Message</label>
+                            <textarea name="Message" class="form-control" rows="3" required></textarea>
+                        </div>
+
+                        <input type="hidden" name="BlogPostId" value="@Model.Id" />
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- blog post comments - displays existing comments & replies -->
             @if (Model.Comments.Any())
             {
                 foreach (var comment in Model.Comments)
@@ -38,3 +67,20 @@
         </div>
     </div>
 </div>
+
+<!-- simple javascript for reply forms - toggles reply form visibility -->
+<script>
+    function toggleReply(commentName) {
+        var formId = 'reply-' + commentName.replace(/\s/g, '');
+        var form = document.getElementById(formId);
+        if (form.style.display === 'none') {
+            form.style.display = 'block';
+        } else {
+            form.style.display = 'none';
+        }
+    }
+</script>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
