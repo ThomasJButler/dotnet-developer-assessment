@@ -1,0 +1,40 @@
+@model DeveloperAssessment.Web.Models.ViewModels.BlogPostViewModel
+@{
+    ViewData["Title"] = Model.Title;
+}
+
+@* main blog details view - displays blog post content, comments & comment form *@
+@* uses template.html structure with blog content, comments list & submission form sections *@
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+
+            <!-- blog post content - replaces template placeholder with json data -->
+            <h1 class="mt-4">@Model.Title</h1>
+            <hr>
+            <p>Posted on @Model.FormattedDate</p>
+            <hr>
+            <img class="img-fluid rounded" src="@Model.Image" alt="@Model.Title">
+            <hr>
+
+            <!-- display html content - using html.raw to render html from json -->
+            @Html.Raw(Model.HtmlContent)
+            <hr>
+
+            <!-- blog post comments - displays existing comments from json -->
+            @if (Model.Comments.Any())
+            {
+                foreach (var comment in Model.Comments)
+                {
+                    @Html.Partial("_Comment", comment)
+                }
+            }
+            else
+            {
+                <p>No comments yet. Be the first to comment!</p>
+            }
+
+        </div>
+    </div>
+</div>
