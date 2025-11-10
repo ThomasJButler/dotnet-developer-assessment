@@ -29,17 +29,17 @@
                         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
                         <div class="form-group">
-                            <label>Name</label>
-                            <input name="Name" class="form-control" placeholder="Your name" required />
+                            <label for="commentName">Name</label>
+                            <input id="commentName" name="Name" class="form-control" placeholder="Your name" required autocomplete="name" />
                         </div>
                         <div class="form-group">
-                            <label>Email Address</label>
-                            <input name="EmailAddress" type="email" class="form-control" placeholder="your.email@example.com" required />
+                            <label for="commentEmail">Email Address</label>
+                            <input id="commentEmail" name="EmailAddress" type="email" class="form-control" placeholder="your.email@example.com" required autocomplete="email" />
                         </div>
 
                         <div class="form-group">
-                            <label>Message</label>
-                            <textarea name="Message" class="form-control" rows="4" placeholder="Share your thoughts..." required></textarea>
+                            <label for="commentMessage">Message</label>
+                            <textarea id="commentMessage" name="Message" class="form-control" rows="4" placeholder="Share your thoughts..." required></textarea>
                         </div>
 
                         <input type="hidden" name="BlogPostId" value="@Model.Id" />
@@ -49,6 +49,7 @@
             </div>
 
             <!-- blog post comments - displays existing comments & replies -->
+            <h2 class="comments-heading">Comments</h2>
             @if (Model.Comments.Any())
             {
                 foreach (var comment in Model.Comments)
@@ -65,15 +66,24 @@
     </div>
 </div>
 
-<!-- simple javascript for reply forms - toggles reply form visibility -->
+<!-- javascript for reply forms - toggles visibility and manages focus -->
 <script>
     function toggleReply(commentName) {
         var formId = 'reply-' + commentName.replace(/\s/g, '');
         var form = document.getElementById(formId);
+        var button = document.querySelector('[aria-controls="' + formId + '"]');
+
         if (form.style.display === 'none') {
             form.style.display = 'block';
+            if (button) button.setAttribute('aria-expanded', 'true');
+            // Move focus to first input field
+            var firstInput = form.querySelector('input[type="text"], input[name="Name"]');
+            if (firstInput) {
+                setTimeout(function() { firstInput.focus(); }, 100);
+            }
         } else {
             form.style.display = 'none';
+            if (button) button.setAttribute('aria-expanded', 'false');
         }
     }
 </script>

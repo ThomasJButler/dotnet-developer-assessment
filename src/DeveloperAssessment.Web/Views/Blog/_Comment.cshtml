@@ -6,7 +6,7 @@
 <div class="media mb-4">
     <img class="d-flex mr-3 rounded-circle comment-avatar"
          src="https://eu.ui-avatars.com/api/?name=@Uri.EscapeDataString(Model.Name)"
-         alt="@Model.Name"
+         alt="Avatar for @Model.Name"
          style="width: 50px; height: 50px;">
 
     <div class="media-body">
@@ -14,20 +14,23 @@
         <div class="comment-text">@Model.Message</div>
 
         <!-- reply button - triggers javascript to show/hide reply form -->
-        <button class="btn btn-reply" onclick="toggleReply('@Model.Name')">Reply</button>
+        <button class="btn btn-reply" onclick="toggleReply('@Model.Name')" aria-expanded="false" aria-controls="reply-@Model.Name.Replace(" ", "")">Reply</button>
 
         <!-- reply form (hidden by default) - allows nested comment submission -->
         <div id="reply-@Model.Name.Replace(" ", "")" class="reply-form" style="display:none;">
             <form asp-action="AddReply" asp-route-id="@ViewContext.RouteData.Values["id"]" method="post">
                 <input type="hidden" name="parentName" value="@Model.Name" />
                 <div class="form-group">
-                    <input name="Name" class="form-control form-control-sm" placeholder="Your name" required />
+                    <label for="replyName-@Model.Name.Replace(" ", "")" class="sr-only">Your name</label>
+                    <input id="replyName-@Model.Name.Replace(" ", "")" name="Name" class="form-control form-control-sm" placeholder="Your name" required autocomplete="name" />
                 </div>
                 <div class="form-group">
-                    <input name="EmailAddress" type="email" class="form-control form-control-sm" placeholder="your.email@example.com" required />
+                    <label for="replyEmail-@Model.Name.Replace(" ", "")" class="sr-only">Your email</label>
+                    <input id="replyEmail-@Model.Name.Replace(" ", "")" name="EmailAddress" type="email" class="form-control form-control-sm" placeholder="your.email@example.com" required autocomplete="email" />
                 </div>
                 <div class="form-group">
-                    <textarea name="Message" class="form-control form-control-sm" rows="3" placeholder="Write your reply..." required></textarea>
+                    <label for="replyMessage-@Model.Name.Replace(" ", "")" class="sr-only">Your reply</label>
+                    <textarea id="replyMessage-@Model.Name.Replace(" ", "")" name="Message" class="form-control form-control-sm" rows="3" placeholder="Write your reply..." required></textarea>
                 </div>
                 <input type="hidden" name="BlogPostId" value="@ViewContext.RouteData.Values["id"]" />
                 <button type="submit" class="btn btn-comment btn-sm">Post Reply</button>
