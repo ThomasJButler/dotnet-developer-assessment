@@ -21,7 +21,196 @@ body {
   margin-bottom: 60px;
 }
 
-/* blog styles - comment layout & nested reply indentation */
+/* blog styles - ux improvements for post display & interaction */
+
+/* blog post title & metadata styling */
+.blog-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+.blog-meta {
+    color: #7f8c8d;
+    font-size: 0.95rem;
+    font-style: italic;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #ecf0f1;
+    margin-bottom: 1.5rem;
+}
+
+/* blog image ux improvements */
+.blog-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin: 2rem 0;
+    transition: transform 0.3s ease;
+}
+
+.blog-image:hover {
+    transform: scale(1.02);
+}
+
+/* desktop: make blog images smaller and align left */
+@media (min-width: 768px) {
+    .blog-image {
+        max-width: 700px; /* limit width on tablets and above */
+        display: block;
+        margin: 2rem 0; /* left aligned with vertical margin */
+    }
+}
+
+@media (min-width: 992px) {
+    .blog-image {
+        max-width: 650px; /* slightly smaller on desktop */
+    }
+}
+
+@media (min-width: 1200px) {
+    .blog-image {
+        max-width: 600px; /* comfortable size for large desktops */
+    }
+}
+
+/* blog content typography */
+.blog-content {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #34495e;
+    margin: 2rem 0;
+}
+
+.blog-content p {
+    margin-bottom: 1.2rem;
+}
+
+.blog-content h2, .blog-content h3 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: #2c3e50;
+}
+
+/* comment form card ux improvements - dark theme matching main site */
+.comment-form-card {
+    background-color: #2e282a; /* offBlack color from main site */
+    border: none;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    border-radius: 8px;
+    margin: 3rem 0 2rem; /* left aligned on desktop */
+    max-width: 600px; /* reduced width on desktop */
+}
+
+.comment-form-card .card-header {
+    background-color: #2e282a;
+    color: #ffffff;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    border-radius: 8px 8px 0 0;
+    padding: 1rem 1.5rem;
+    font-weight: 500;
+}
+
+.comment-form-card .card-body {
+    background-color: #2e282a;
+    border-radius: 0 0 8px 8px;
+}
+
+.comment-form-card label {
+    color: #ffffff;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+
+.comment-form-card .form-control {
+    background-color: transparent;
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 8px;
+    color: #ffffff;
+    padding: 0.75rem 1rem;
+    transition: all 0.3s ease;
+}
+
+.comment-form-card .form-control::placeholder {
+    color: rgba(255,255,255,0.5);
+}
+
+.comment-form-card .form-control:focus {
+    background-color: transparent;
+    border-color: rgba(255,255,255,0.4);
+    box-shadow: 0 0 0 0.2rem rgba(255,255,255,0.1);
+    color: #ffffff;
+}
+
+/* button ux improvements */
+.btn-comment {
+    background-color: #f5f5f5; /* off-white */
+    color: #000000; /* black text */
+    border: none;
+    padding: 0.75rem 2rem;
+    border-radius: 8px;
+    font-weight: 500;
+    margin-top: 1rem; /* top spacing for better layout */
+    transition: all 0.3s ease;
+}
+
+.btn-comment:hover {
+    background-color: #e8e8e8; /* darker off-white on hover */
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #000000; /* maintain black text */
+}
+
+/* small button variant for reply forms */
+.btn-comment.btn-sm {
+    padding: 0.5rem 1.5rem;
+    font-size: 0.875rem;
+}
+
+/* comment display ux improvements */
+.comment-card {
+    background: #f8f9fa;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-left: 4px solid #667eea;
+}
+
+.comment-author {
+    font-weight: 600;
+    color: #2c3e50;
+    font-size: 1.1rem;
+}
+
+.comment-date {
+    color: #95a5a6;
+    font-size: 0.85rem;
+    margin-left: 0.5rem;
+}
+
+.comment-text {
+    color: #34495e;
+    line-height: 1.6;
+    margin-top: 0.75rem;
+}
+
+/* reply button styling */
+.btn-reply {
+    color: #667eea;
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 0.25rem 0.75rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-reply:hover {
+    background-color: rgba(102, 126, 234, 0.1);
+    color: #5568d3;
+}
+
+/* media object comment layout */
 .media {
     margin-bottom: 20px;
 }
@@ -30,9 +219,57 @@ body {
     flex: 1;
 }
 
-/* indent replies - visual hierarchy for nested comment threads */
+/* nested reply ux improvements */
 .media .media {
     margin-left: 40px;
-    border-left: 2px solid #ddd;
-    padding-left: 10px;
+    border-left: 3px solid #e8e9f3;
+    padding-left: 15px;
+    margin-top: 1rem;
+}
+
+/* reply form ux improvements - dark theme matching comment form */
+.reply-form {
+    background-color: #2e282a; /* offBlack color matching main form */
+    padding: 1rem;
+    border-radius: 6px;
+    margin-top: 1rem;
+    max-width: 600px; /* match main comment form width on desktop */
+}
+
+.reply-form .form-control-sm {
+    background-color: transparent;
+    border: 1px solid rgba(255,255,255,0.2);
+    color: #ffffff;
+    padding: 0.5rem 0.75rem;
+}
+
+.reply-form .form-control-sm::placeholder {
+    color: rgba(255,255,255,0.5);
+}
+
+.reply-form .form-control-sm:focus {
+    background-color: transparent;
+    border-color: rgba(255,255,255,0.4);
+    box-shadow: 0 0 0 0.2rem rgba(255,255,255,0.1);
+    color: #ffffff;
+}
+
+/* avatar ux improvements */
+.comment-avatar {
+    border: 2px solid #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* mobile responsive styles for comment form */
+@media (max-width: 767px) {
+    .comment-form-card .card-header {
+        text-align: center; /* center header text on mobile */
+    }
+
+    .btn-comment {
+        display: block; /* make button full width */
+        width: 100%; /* full width on mobile */
+        text-align: center; /* center text in button */
+        padding: 0.75rem 2rem; /* maintain the desktop padding */
+    }
 }

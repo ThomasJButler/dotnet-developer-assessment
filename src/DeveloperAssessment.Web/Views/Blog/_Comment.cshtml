@@ -4,34 +4,33 @@
 @* uses media object structure with avatar, reply button & nested reply forms *@
 
 <div class="media mb-4">
-    <img class="d-flex mr-3 rounded-circle"
+    <img class="d-flex mr-3 rounded-circle comment-avatar"
          src="https://eu.ui-avatars.com/api/?name=@Uri.EscapeDataString(Model.Name)"
          alt="@Model.Name"
          style="width: 50px; height: 50px;">
 
     <div class="media-body">
-        <h5 class="mt-0">@Model.Name <small><em>(@Model.Date.ToString("MMMM d, yyyy - HH:mm"))</em></small></h5>
-        @Model.Message
+        <h5 class="comment-author">@Model.Name <small class="comment-date">(@Model.Date.ToString("MMMM d, yyyy - HH:mm"))</small></h5>
+        <div class="comment-text">@Model.Message</div>
 
         <!-- reply button - triggers javascript to show/hide reply form -->
-        <br>
-        <button class="btn btn-sm btn-link" onclick="toggleReply('@Model.Name')">Reply</button>
+        <button class="btn btn-reply" onclick="toggleReply('@Model.Name')">Reply</button>
 
         <!-- reply form (hidden by default) - allows nested comment submission -->
-        <div id="reply-@Model.Name.Replace(" ", "")" style="display:none; margin-top:10px;">
+        <div id="reply-@Model.Name.Replace(" ", "")" class="reply-form" style="display:none;">
             <form asp-action="AddReply" asp-route-id="@ViewContext.RouteData.Values["id"]" method="post">
                 <input type="hidden" name="parentName" value="@Model.Name" />
                 <div class="form-group">
-                    <input name="Name" class="form-control form-control-sm" placeholder="Your Name" required />
+                    <input name="Name" class="form-control form-control-sm" placeholder="Your name" required />
                 </div>
                 <div class="form-group">
-                    <input name="EmailAddress" type="email" class="form-control form-control-sm" placeholder="Email" required />
+                    <input name="EmailAddress" type="email" class="form-control form-control-sm" placeholder="your.email@example.com" required />
                 </div>
                 <div class="form-group">
-                    <textarea name="Message" class="form-control form-control-sm" rows="2" placeholder="Reply" required></textarea>
+                    <textarea name="Message" class="form-control form-control-sm" rows="3" placeholder="Write your reply..." required></textarea>
                 </div>
                 <input type="hidden" name="BlogPostId" value="@ViewContext.RouteData.Values["id"]" />
-                <button type="submit" class="btn btn-primary btn-sm">Reply</button>
+                <button type="submit" class="btn btn-comment btn-sm">Post Reply</button>
             </form>
         </div>
 
