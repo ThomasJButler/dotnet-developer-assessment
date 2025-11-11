@@ -396,3 +396,6 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+Tests/DeveloperAssessment.Tests.Integration/packages.lock.json
+*.lock.json
+TestResults/

@@ -1,0 +1,220 @@
+{
+  "blogPosts": [
+    {
+      "id": 1,
+      "date": "2019-11-11T18:11:22.511Z",
+      "title": "Top 5 Considerations for a Content-First Design Approach",
+      "image": "https://picsum.photos/id/0/800/450",
+      "htmlContent": "\u003Cp\u003EIt was over two decades ago that Bill Gates declared\u0026nbsp;\u2018Content is King\u2019\u0026nbsp;and the\u0026nbsp;consensus\u0026nbsp;still stands today\u0026nbsp;with it\u0026nbsp;arguably\u0026nbsp;being\u0026nbsp;the most important part of designing a website.\u0026nbsp;\u0026nbsp;\u003C/p\u003E\u003Cp\u003EContent is essentially your\u0026nbsp;UX.\u0026nbsp;It\u0026nbsp;encompasses\u0026nbsp;the images, words, videos\u0026nbsp;and\u0026nbsp;data\u0026nbsp;featured across your website.\u0026nbsp;If the main purpose of your site is to share valuable and relevant content to engage your audience, then you should be\u0026nbsp;considering your content\u0026nbsp;long\u0026nbsp;before embarking on\u0026nbsp;a web project.\u0026nbsp;All too often,\u0026nbsp;businesses miss the opportunity to create impressive UX designs, instead waiting\u0026nbsp;until the later stages of the project to sign off content which inevitably creates\u0026nbsp;new challenges to overcome.\u0026nbsp;\u0026nbsp;\u003C/p\u003E\r\n\u003Cp\u003EHaving a research strategy in place that supports\u0026nbsp;a content-first design approach should be at the top of your agenda.\u0026nbsp;When\u0026nbsp;businesses\u0026nbsp;choose to design content-first,\u0026nbsp;they\u0026nbsp;are\u0026nbsp;putting\u0026nbsp;their\u0026nbsp;valuable\u0026nbsp;resources\u0026nbsp;centre\u0026nbsp;stage,\u0026nbsp;conveying their brand\u0026nbsp;through\u0026nbsp;effective\u0026nbsp;and\u0026nbsp;engaging UX design.\u0026nbsp;Throughout this blog, we will\u0026nbsp;share\u0026nbsp;our tips on how\u0026nbsp;you can\u0026nbsp;develop a content-first design approach.\u0026nbsp;\u0026nbsp;\u003C/p\u003E\r\n\u003Ch2\u003E\u003Cstrong\u003EHow to develop a content-first design approach\u0026nbsp;\u003C/strong\u003E\u0026nbsp;\u003C/h2\u003E\r\n\u003Cp\u003EContent can no longer be an after-thought,\u0026nbsp;but\u0026nbsp;there\u2019s no denying that\u0026nbsp;generating content can be a tricky. To get you thinking along the right lines\u0026nbsp;and help put pen to paper, follow our top tips:\u0026nbsp;\u0026nbsp;\u0026nbsp;\u003C/p\u003E\r\n\u003Ch3\u003E\u003Cstrong\u003EAsk lots of questions\u003C/strong\u003E\u0026nbsp;\u003C/h3\u003E\r\n\u003Cp\u003EGenerating content that successfully satisfies what your customers want to know requires a lot of research. Get into the habit of asking open-ended questions that answer the Who, What, Where, When, Why and How. Using this approach will allow you to delve deep and gain an understanding of what your website should\u0026nbsp;include\u0026nbsp;to\u0026nbsp;build a considered site map.\u0026nbsp;\u0026nbsp;\u003C/p\u003E\r\n\u003Ch3\u003E\u003Cstrong\u003EConsider your Information Architecture\u0026nbsp;(IA)\u003C/strong\u003E\u0026nbsp;\u003C/h3\u003E\r\n\u003Cp\u003EHow your\u0026nbsp;content is organised and divided across the website is a crucial aspect of UX design.\u0026nbsp;Without effective sorting, most users would be completely lost when navigating\u0026nbsp;a\u0026nbsp;site\u0026nbsp;and there\u2019s no point having\u0026nbsp;memorable features if they can\u2019t be found!\u0026nbsp;Use card sorting exercises, tree tests, user journey mapping\u0026nbsp;and user flow diagrams to\u0026nbsp;form\u0026nbsp;an understanding of how\u0026nbsp;best\u0026nbsp;to display your content in a logical and accessible way.\u0026nbsp;\u0026nbsp;\u0026nbsp;\u003C/p\u003E\r\n\u003Ch3\u003E\u003Cstrong\u003EConduct\u0026nbsp;qualitative and\u0026nbsp;quantitative\u0026nbsp;research\u003C/strong\u003E\u0026nbsp;\u003C/h3\u003E\r\n\u003Cp\u003EAlthough Google Analytics is extremely useful, it doesn\u2019t hold all the answers.\u0026nbsp;Google\u0026nbsp;Analytics is great at telling you\u0026nbsp;\u003Cem\u003Ewhat\u003C/em\u003E\u0026nbsp;your users are doing, but it doesn\u2019t give you\u0026nbsp;the\u0026nbsp;insight into\u0026nbsp;\u003Cem\u003Ewhy\u003C/em\u003E\u0026nbsp;they\u2019re doing it. Qualitative one-to-one user interviews is an effective method of really getting to grips with\u0026nbsp;your user needs\u0026nbsp;to\u0026nbsp;understand\u0026nbsp;why they do what they do.\u0026nbsp;User\u0026nbsp;testing also falls into this category.\u0026nbsp;Seeing a user navigate through your website on a mobile phone\u0026nbsp;in day to day life\u0026nbsp;can give you great insight\u0026nbsp;for\u0026nbsp;UX design\u0026nbsp;in terms of\u0026nbsp;context and situation.\u0026nbsp;\u003C/p\u003E\r\n\u003Ch3\u003E\u003Cstrong\u003EAlign your content strategy with long-term business goals\u003C/strong\u003E\u0026nbsp;\u0026nbsp;\u003C/h3\u003E\r\n\u003Cp\u003EBefore beginning your web project,\u0026nbsp;it\u2019s important to understand the goals of the project and the pain points you are trying to solve.\u0026nbsp;Include all the necessary stakeholders within this\u0026nbsp;research\u0026nbsp;to gain a comprehensive understanding of these insights\u0026nbsp;before embarking on your web design project.\u0026nbsp;\u0026nbsp;\u003C/p\u003E\r\n\u003Ch3\u003E\u003Cstrong\u003EContent first, design second\u003C/strong\u003E\u0026nbsp;\u003C/h3\u003E\r\n\u003Cp\u003EAvoid designing\u0026nbsp;content boxes across your website and trying to squeeze the content into these boxes.\u0026nbsp;When designing a new website, it may seem\u0026nbsp;counter\u0026nbsp;intuitive\u0026nbsp;to begin with a page of words\u0026nbsp;rather than a\u0026nbsp;design mock-up. But, it\u2019s important to remember that Lorem Ipsum isn\u2019t going to help anyone either.\u0026nbsp;Begin with the content your users\u0026nbsp;need\u0026nbsp;and then design out from\u0026nbsp;there.\u0026nbsp;Capturing\u0026nbsp;the content\u0026nbsp;and its structure can be done in many ways;\u0026nbsp;we like to build content models\u0026nbsp;based on IA site maps and qualitative user testing such as card sorting\u0026nbsp;and user journey mapping.\u0026nbsp;\u0026nbsp;\u003C/p\u003E\r\n\u003Cp\u003EBy\u0026nbsp;using a content-first\u0026nbsp;design\u0026nbsp;approach, you can\u0026nbsp;understand what content needs to fit\u0026nbsp;into your website\u0026nbsp;design.\u0026nbsp;Analysing your website\u2019s content needs in the early stages or,\u0026nbsp;even better, prior to the project beginning,\u0026nbsp;can effectively\u0026nbsp;inform and shape all touch points ultimately generating an optimised\u0026nbsp;result\u0026nbsp;with reduced time delays and constraints\u0026nbsp;along the way. If you\u0026nbsp;have a web project in mind and need help\u0026nbsp;on how to get started,\u0026nbsp;\u003Ca href=\u0022https://www.netconstruct.co.uk/contact/\u0022\u003Eget in touch\u003C/a\u003E\u0026nbsp;with the team today.\u0026nbsp;\u0026nbsp;\u0026nbsp;\u003C/p\u003E",
+      "comments": [
+        {
+          "name": "Steven Barker",
+          "date": "2019-11-11T20:44:01Z",
+          "emailAddress": "stevenbarker@mailinator.co.uk",
+          "message": "Sed vel odio consequat, elementum massa quis, lobortis est. Nulla egestas congue dolor, sit amet fermentum massa dignissim sit amet. In vestibulum iaculis egestas.",
+          "replies": []
+        },
+        {
+          "name": "Chetan Mistry",
+          "date": "2019-11-13T09:00:23.533Z",
+          "emailAddress": "chetanmistry@mailinator.co.uk",
+          "message": "Nam vel aliquet nulla, ac tempor ex. Suspendisse sit amet sollicitudin ex, vel placerat ipsum. Duis vitae fermentum eros. In maximus maximus purus, et volutpat eros rutrum et. Nulla fringilla at massa vel varius. In tristique egestas nisl, vitae elementum orci fringilla quis. Ut rutrum mauris erat, a rhoncus orci posuere non. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+          "replies": []
+        },
+        {
+          "name": "Chris Grey",
+          "date": "2019-11-11T19:22:22.511Z",
+          "emailAddress": "chrisgrey@mailinator.co.uk",
+          "message": "Integer volutpat, sapien eu dapibus sodales, ipsum arcu dapibus elit, ac faucibus mi ligula suscipit mauris.",
+          "replies": []
+        },
+        {
+          "name": "Test Commenter",
+          "date": "2025-11-11T00:32:14.5681894Z",
+          "emailAddress": "test@example.com",
+          "message": "This is a valid test comment.",
+          "replies": []
+        },
+        {
+          "name": "Test Commenter",
+          "date": "2025-11-11T00:32:23.4724943Z",
+          "emailAddress": "test@example.com",
+          "message": "This is a valid test comment.",
+          "replies": []
+        },
+        {
+          "name": "Test Commenter",
+          "date": "2025-11-11T00:32:34.734927Z",
+          "emailAddress": "test@example.com",
+          "message": "This is a valid test comment.",
+          "replies": []
+        },
+        {
+          "name": "Test Commenter",
+          "date": "2025-11-11T00:32:41.9276989Z",
+          "emailAddress": "test@example.com",
+          "message": "This is a valid test comment.",
+          "replies": []
+        },
+        {
+          "name": "Test Commenter",
+          "date": "2025-11-11T00:33:28.9380709Z",
+          "emailAddress": "test@example.com",
+          "message": "This is a valid test comment.",
+          "replies": []
+        },
+        {
+          "name": "Test Commenter",
+          "date": "2025-11-11T00:34:36.6342322Z",
+          "emailAddress": "test@example.com",
+          "message": "This is a valid test comment.",
+          "replies": []
+        },
+        {
+          "name": "Test Commenter",
+          "date": "2025-11-11T00:34:47.5537251Z",
+          "emailAddress": "test@example.com",
+          "message": "This is a valid test comment.",
+          "replies": []
+        },
+        {
+          "name": "Test Commenter",
+          "date": "2025-11-11T00:34:52.9575046Z",
+          "emailAddress": "test@example.com",
+          "message": "This is a valid test comment.",
+          "replies": []
+        },
+        {
+          "name": "Test Commenter",
+          "date": "2025-11-11T00:34:57.6143153Z",
+          "emailAddress": "test@example.com",
+          "message": "This is a valid test comment.",
+          "replies": []
+        },
+        {
+          "name": "Test Commenter",
+          "date": "2025-11-11T00:35:07.2307038Z",
+          "emailAddress": "test@example.com",
+          "message": "This is a valid test comment.",
+          "replies": []
+        },
+        {
+          "name": "Test Commenter",
+          "date": "2025-11-11T00:35:59.0969325Z",
+          "emailAddress": "test@example.com",
+          "message": "This is a valid test comment.",
+          "replies": []
+        },
+        {
+          "name": "Test Commenter",
+          "date": "2025-11-11T00:42:26.6673927Z",
+          "emailAddress": "test@example.com",
+          "message": "This is a valid test comment.",
+          "replies": []
+        },
+        {
+          "name": "Test Commenter",
+          "date": "2025-11-11T00:42:42.333248Z",
+          "emailAddress": "test@example.com",
+          "message": "This is a valid test comment.",
+          "replies": []
+        },
+        {
+          "name": "Test Commenter",
+          "date": "2025-11-11T00:43:00.7706167Z",
+          "emailAddress": "test@example.com",
+          "message": "This is a valid test comment.",
+          "replies": []
+        },
+        {
+          "name": "Test Commenter",
+          "date": "2025-11-11T00:45:07.7741835Z",
+          "emailAddress": "test@example.com",
+          "message": "This is a valid test comment.",
+          "replies": []
+        },
+        {
+          "name": "Test Commenter",
+          "date": "2025-11-11T00:45:32.2149197Z",
+          "emailAddress": "test@example.com",
+          "message": "This is a valid test comment.",
+          "replies": []
+        },
+        {
+          "name": "Test Commenter",
+          "date": "2025-11-11T00:46:26.099438Z",
+          "emailAddress": "test@example.com",
+          "message": "This is a valid test comment.",
+          "replies": []
+        },
+        {
+          "name": "Test Commenter",
+          "date": "2025-11-11T00:46:45.743146Z",
+          "emailAddress": "test@example.com",
+          "message": "This is a valid test comment.",
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "date": "2019-11-01T01:21:39.123Z",
+      "title": "Introducing Ben...",
+      "image": "https://picsum.photos/id/1005/800/450",
+      "htmlContent": "\u003Cp\u003EIn the latest instalment of\u0026nbsp;the NetConstruct\u0026nbsp;\u2018Introducing\u2019 series, we sat down with our internal Umbraco guru and key member of the development team, Ben,\u0026nbsp;to discuss life at NetConstruct, his background, experiences and expertise. Integral to the business, Ben uses his experience to code, build and support clients in creating outstanding website solutions.\u0026nbsp;\u0026nbsp;\u003C/p\u003E\u003Ch2\u003E\u003Cstrong\u003ETell\u0026nbsp;Us\u0026nbsp;A\u0026nbsp;Little\u0026nbsp;Bit\u0026nbsp;About\u0026nbsp;You\u2026\u003C/strong\u003E\u0026nbsp;\u003C/h2\u003E\r\n\u003Cp\u003EThis year, instead of having a\u0026nbsp;New Year\u2019s resolution, I\u0026nbsp;decided I just wanted to try\u0026nbsp;and\u0026nbsp;be more\u0026nbsp;creative.\u0026nbsp;I really enjoy photography so I\u0026nbsp;get out\u0026nbsp;as much as I can\u0026nbsp;and\u0026nbsp;do mostly landscape\u0026nbsp;or macro\u0026nbsp;type\u0026nbsp;photography,\u0026nbsp;like plants and wildlife.\u0026nbsp;I\u0027ve been doing painting recently\u0026nbsp;and\u0026nbsp;I\u0027ve got a 3D printer which I\u2019ve been using more often.\u0026nbsp;As my job role is very logical,\u0026nbsp;I\u2019ve been trying\u0026nbsp;to step out of that and be more creative in my own time.\u0026nbsp;This is probably a\u0026nbsp;little\u0026nbsp;stereotypical of developers, but\u0026nbsp;I\u2019m also into\u0026nbsp;gaming.\u0026nbsp;I always take part in the\u0026nbsp;NetConstruct\u0026nbsp;\u003Ca href=\u0022https://www.netconstruct.com/insights/netconstruct-s-charity-gaming-marathon-is-nearly-here\u0022\u003Echarity gaming event\u003C/a\u003E\u0026nbsp;and I play regularly at home too\u0026nbsp;including\u0026nbsp;board games and card games.\u0026nbsp;\u0026nbsp;\u003C/p\u003E\r\n\u003Ch2\u003E\u003Cstrong\u003EWhat\u0026nbsp;Is\u0026nbsp;Your\u0026nbsp;Background?\u0026nbsp;\u003C/strong\u003E\u0026nbsp;\u003C/h2\u003E\r\n\u003Cp\u003EI\u2019ve been at NetConstruct for four and a half years now and I\u2019m sort of the odd one out in the development team\u2026\u0026nbsp;I joined NetConstruct, as a developer. Everyone else finished university and came through our Helpdesk, whereas I finished university back in 2012, had roughly a year off and then joined a software company where I built\u0026nbsp;\u003Ca href=\u0022https://www.netconstruct.com/umbraco-developer-umbraco-8-services-umbraco-cms-developer-netconstruct\u0022\u003EUmbraco websites\u003C/a\u003E. I was there for two years and then wanted to move on, so I joined NetConstruct\u0026nbsp;in a development position.\u0026nbsp;\u003C/p\u003E\r\n\u003Cp\u003EMy degree was in\u0026nbsp;Computer Science with Games Development, I always wanted to work\u0026nbsp;in IT since secondary school\u0026nbsp;\u2013 it was either that or mathematics.\u0026nbsp;Although my focus was initially\u0026nbsp;to begin a career within\u0026nbsp;game development, when I was in my last year of university, I learnt a bit about this\u0026nbsp;industry\u0026nbsp;and found that I wanted to\u0026nbsp;go into\u0026nbsp;straight development,\u0026nbsp;so from there, I moved into websites and general systems.\u0026nbsp;I\u2019d\u0026nbsp;still like to build a game at some point, but\u0026nbsp;that\u2019s\u0026nbsp;just\u0026nbsp;a dream\u0026nbsp;at the moment!\u0026nbsp;\u0026nbsp;\u003C/p\u003E\r\n\u003Ch2\u003E\u003Cstrong\u003EWhat\u0026nbsp;Is\u0026nbsp;Your\u0026nbsp;Role\u0026nbsp;In\u0026nbsp;The\u0026nbsp;Business?\u0026nbsp;\u003C/strong\u003E\u0026nbsp;\u003C/h2\u003E\r\n\u003Cp\u003EI\u2019m in development so my role involves\u0026nbsp;coding and building\u0026nbsp;websites. I take part in the technical workshops as well as\u0026nbsp;client facing meetings and training too.\u0026nbsp;Meeting clients\u0026nbsp;gives you a chance to understand them and their business\u0026nbsp;better,\u0026nbsp;which obviously helps when I\u2019m building their website and\u0026nbsp;learning how I can work with them. If you can gauge their technical knowledge, you can also gauge what you need to do during development to make the CMS as enjoyable as possible for them to use. My role also encompasses providing support and guidance including technical opinions and expertise needed around projects, as well as\u0026nbsp;showing the client how to use their new system.\u0026nbsp;\u0026nbsp;\u003C/p\u003E\r\n\u003Ch2\u003E\u003Cstrong\u003EWhat\u0026nbsp;Value\u0026nbsp;Do\u0026nbsp;You, Or\u0026nbsp;Your\u0026nbsp;Team, Offer\u0026nbsp;Clients?\u0026nbsp;\u003C/strong\u003E\u0026nbsp;\u003C/h2\u003E\r\n\u003Cp\u003EMy team\u0026nbsp;offers a mixture of\u0026nbsp;support, guidance\u0026nbsp;and technical expertise. We often have clients come to us knowing they want a website which can do X, Y and Z,\u0026nbsp;so we will take this spec and work out if it can be\u0026nbsp;or\u0026nbsp;should be done\u0026nbsp;either from a technical standpoint or when considering\u0026nbsp;general usability.\u0026nbsp;\u0026nbsp;\u003C/p\u003E\r\n\u003Cp\u003EWe help clients\u0026nbsp;reach\u0026nbsp;the optimal\u0026nbsp;path\u0026nbsp;for them by suggesting ideas that will meet their objectives.\u0026nbsp;If we see something is wrong, we say it, but we will always try to give a solution too. In development, it\u2019s mostly looking at what we\u2019ve done before, what we\u0026nbsp;can\u0026nbsp;use to help the client and sometimes looking at using a new piece of technology\u0026nbsp;to\u0026nbsp;help businesses evolve.\u003Cstrong\u003E\u0026nbsp;\u003C/strong\u003E\u0026nbsp;\u003C/p\u003E\r\n\u003Ch2\u003E\u003Cstrong\u003EWhat\u0026nbsp;Do\u0026nbsp;You\u0026nbsp;Enjoy\u0026nbsp;Most\u0026nbsp;About\u0026nbsp;Your\u0026nbsp;Job?\u003C/strong\u003E\u0026nbsp;\u003C/h2\u003E\r\n\u003Cp\u003EIt\u2019s the people.\u0026nbsp;It\u2019s a bit like a family atmosphere here.\u0026nbsp;We\u0026nbsp;take banter from each other\u2026\u0026nbsp;and give it back just as\u0026nbsp;much,\u0026nbsp;but we\u2019re all friendly and we listen\u0026nbsp;and value\u0026nbsp;everyone\u2019s\u0026nbsp;opinions.\u0026nbsp;It allows us to\u0026nbsp;feel\u0026nbsp;comfortable and more vocal, everyone is willing to collaborate and converse about a project.\u0026nbsp;It\u2019s important we\u0026nbsp;encourage\u0026nbsp;each team\u0026nbsp;to have their say from their own expertise\u0026nbsp;and experience.\u0026nbsp;\u0026nbsp;\u003C/p\u003E\r\n\u003Ch2\u003E\u003Cstrong\u003EWhat\u0026nbsp;Have\u0026nbsp;You\u0026nbsp;Found\u0026nbsp;Challenging?\u003C/strong\u003E\u0026nbsp;\u003C/h2\u003E\r\n\u003Cp\u003EProbably one of the most challenging parts of my role is when we inherit code from\u0026nbsp;another agency.\u0026nbsp;As we offer audits, we often\u0026nbsp;takeover code from other companies. It\u2019s a testament to our team that we can fix\u0026nbsp;these\u0026nbsp;issues that\u0026nbsp;affect\u0026nbsp;businesses.\u0026nbsp;During this process, we sit\u0026nbsp;with the client and use\u0026nbsp;our problem-solving skills to fix their problems, advise\u0026nbsp;them what to focus on, what they can improve\u0026nbsp;and how they can do this.\u0026nbsp;\u0026nbsp;\u0026nbsp;\u003C/p\u003E\r\n\u003Cp\u003EFor example, Serverlec Technologies was an Umbraco site we inherited, and the code base was a bit of a mess. We patched up as much as we could but, in the process, we built a great relationship with the client and ended up taking the site on for a full rebuild. It gave them the confidence that we could transform their site into what they needed and wanted.\u0026nbsp;\u003C/p\u003E\r\n\u003Ch2\u003E\u003Cstrong\u003EWhat\u0026nbsp;Is Your Favourite Project You\u2019ve Worked\u0026nbsp;On\u0026nbsp;And Why?\u0026nbsp;\u003C/strong\u003E\u0026nbsp;\u003C/h2\u003E\r\n\u003Cp\u003EProbably Stericycle.\u0026nbsp;This project was completed on \u003Ca href=\u0022https://www.netconstruct.com/kentico-developer-kentico-12-kentico-web-developer-gold-partner-netconstruct\u0022\u003EKentico 12 MVC\u003C/a\u003E which is a new platform and it was also multicultural which is the first time we had to do this for\u0026nbsp;MVC. The site\u0026nbsp;wasn\u2019t\u0026nbsp;that\u0026nbsp;complicated,\u0026nbsp;but the client was\u0026nbsp;great\u0026nbsp;and\u0026nbsp;really easy\u0026nbsp;to work with,\u0026nbsp;every\u0026nbsp;call\u0026nbsp;we had with them\u0026nbsp;was positive\u0026nbsp;and\u0026nbsp;all the training\u0026nbsp;we implemented had great results.\u0026nbsp;It was just an all-round\u0026nbsp;positive\u0026nbsp;project to be a part of!\u0026nbsp;\u0026nbsp;\u003C/p\u003E",
+      "comments": [
+        {
+          "name": "Steven Barker",
+          "date": "2019-11-11T20:44:01Z",
+          "emailAddress": "stevenbarker@mailinator.co.uk",
+          "message": "Sed vel odio consequat, elementum massa quis, lobortis est. Nulla egestas congue dolor, sit amet fermentum massa dignissim sit amet. In vestibulum iaculis egestas.",
+          "replies": []
+        },
+        {
+          "name": "Chetan Mistry",
+          "date": "2019-11-13T09:00:23.533Z",
+          "emailAddress": "chetanmistry@mailinator.co.uk",
+          "message": "Nam vel aliquet nulla, ac tempor ex. Suspendisse sit amet sollicitudin ex, vel placerat ipsum. Duis vitae fermentum eros. In maximus maximus purus, et volutpat eros rutrum et. Nulla fringilla at massa vel varius. In tristique egestas nisl, vitae elementum orci fringilla quis. Ut rutrum mauris erat, a rhoncus orci posuere non. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+          "replies": []
+        },
+        {
+          "name": "Chris Grey",
+          "date": "2019-11-11T19:22:22.511Z",
+          "emailAddress": "chrisgrey@mailinator.co.uk",
+          "message": "Integer volutpat, sapien eu dapibus sodales, ipsum arcu dapibus elit, ac faucibus mi ligula suscipit mauris.",
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "date": "2019-10-28T14:53:09.511Z",
+      "title": "Highlights from Kentico Connection Brno",
+      "image": "https://picsum.photos/id/180/800/450",
+      "htmlContent": "\u003Cp\u003EAs a leading Kentico web development agency, we take enhancing our knowledge and staying on top when it comes to Kentico seriously. Regularly attending and often participating in their events around the globe, members of the NetConstruct team including MD, Jonathan and Developer, Liam, attended Kentico Connection on 18-19 September in Brno, Czech Republic. The insightful event was just the right mix of software news, Kentico culture and announcements for the future. Here are our top takeaways from the event.\u003C/p\u003E\u003Ch3\u003ECommitment to Dual Product Strategy\u003C/h3\u003E\r\n\u003Cp\u003EWith the rebranding of Kentico Cloud to Kentico Kontent taking place, there was a lot of discussion around their dual product strategy, defining this clearly to partners and end users. Confusion has been rife over Kentico\u2019s CaaS (Content as a Service) product but Kentico Connection clarified their long-term commitment to the original EMS product. Clear positioning of both products means Kentico now has a distinct solution for the needs of any business who is serious about digital marketing. \u0026nbsp;\u003C/p\u003E\r\n\u003Ch3\u003EOpenness to Feedback\u003C/h3\u003E\r\n\u003Cp\u003EA hallmark of Kentico\u2019s culture is their willingness to take on board feedback from customers, partners, developers and integrators. This was obvious during the event through the numerous conversations with both company executives and other key staff members who invited and discussed our opinion on a range of product and strategy related matters.\u003C/p\u003E\r\n\u003Ch3\u003EIncreased Focus on Larger Projects\u003C/h3\u003E\r\n\u003Cp\u003EWith continued endorsement from both\u0026nbsp;\u003Ca href=\u0022https://www.gartner.com/en\u0022\u003EGartner\u003C/a\u003E\u0026nbsp;and\u0026nbsp;\u003Ca href=\u0022https://go.forrester.com/\u0022\u003EForrester\u003C/a\u003E, Kentico EMS is now regarded by many as a true enterprise product. While Kentico initially positioned the EMS as a mid-market solution, there is no denying its use in a growing range of very large digital solutions. Kentico Cloud, is also being used across large-scale solutions, for example, a project for AC Milan Football Club to deliver a heavy throughput of content.\u003C/p\u003E\r\n\u003Ch3\u003EKentico 2020\u003C/h3\u003E\r\n\u003Cp\u003EThe release of their updated software is planned for September 2020 and the project has been given the official code name of Phoenix. Phoenix symbolises the rise from the ashes after burning away the remainder of Kentico webforms. The current Kentico MVC take up is approximately 40% of users with the software looking to push that figure closer towards 100% through the release of Kentico 2020 next year. The key improvements expected are:\u003C/p\u003E\r\n\u003Cul\u003E\r\n  \u003Cli\u003E\u003Cstrong\u003EBuilt in Automatic Dynamic Routing:\u003C/strong\u003E\u0026nbsp;Bespoke routing implementation will no longer be required. Kentico\u2019s routing will instead work alongside custom routing, standalone, or completely disabled.\u003C/li\u003E\r\n  \u003Cli\u003E\u003Cstrong\u003ELinked pages:\u003C/strong\u003E\u0026nbsp;This feature will allow for reusable content within the content tree.\u003C/li\u003E\r\n  \u003Cli\u003E\u003Cstrong\u003ESupport for .NET Core\u003C/strong\u003E: Kentico libraries will be fully migrated to .NET Standard 2.0 once the release has launched. This will enable Kentico MVC projects to be built with the latest .NET Core release version 3.0.\u003C/li\u003E\r\n\u003C/ul\u003E\r\n\u003Ch3\u003EKentico Kontent\u003C/h3\u003E\r\n\u003Cp\u003EFurther updates on Kentico Kontent were shared during the event with the new release of the Content Management API (CM API v2) coming soon. This version will bring more advanced support for publishing, unpublishing, workflows, content types, snippets, taxonomy and languages. CM API will no longer be for importing alone, it will also allow for integration and automation too.\u003C/p\u003E\r\n\u003Cp\u003EWebhook debugging tools have also been added to Kentico Kontent, allowing developers to debug webhook responses with ease. In addition, advanced configuration options have been implemented which will enable specific content types and workflow steps to trigger specific webhooks.\u003C/p\u003E\r\n\u003Ch3\u003EKentico MVC Marketplace\u003C/h3\u003E\r\n\u003Cp\u003EDuring Kentico Connection, their MVC Marketplace was promoted regularly, encouraging partners and developers to submit work to help enhance the Kentico community. Something we\u2019re keen to be part of, NetConstruct developer Liam submitted an MVC form component prior to Kentico Connection which can be viewed\u0026nbsp;\u003Ca href=\u0022https://github.com/liamgold/font-awesome-form-component\u0022\u003Ehere\u003C/a\u003E.\u003C/p\u003E\r\n\u003Cp\u003EA growing list of custom elements have been added to GitHub, a marketplace for developers to share new functionality and integrations. A number of example eCommerce integrations for Kentico Kontent are now readily available on GitHub which can be added to existing and new Kentico Kontent builds.\u003C/p\u003E\r\n\u003Cp\u003EJonathan and Liam were unanimous in their opinions that Kentico Connection brilliant and informative across all bases. A big thank you to Kentico for hosting us and delivering yet another intriguing Kentico Connection, sharing further insight into their future plans and advancements. We\u2019re already looking forward to the next one! #KenticoConnection2019\u003C/p\u003E",
+      "comments": [
+        {
+          "name": "Steven Barker",
+          "date": "2019-11-11T20:44:01Z",
+          "emailAddress": "stevenbarker@mailinator.co.uk",
+          "message": "Sed vel odio consequat, elementum massa quis, lobortis est. Nulla egestas congue dolor, sit amet fermentum massa dignissim sit amet. In vestibulum iaculis egestas.",
+          "replies": []
+        },
+        {
+          "name": "Chetan Mistry",
+          "date": "2019-11-13T09:00:23.533Z",
+          "emailAddress": "chetanmistry@mailinator.co.uk",
+          "message": "Nam vel aliquet nulla, ac tempor ex. Suspendisse sit amet sollicitudin ex, vel placerat ipsum. Duis vitae fermentum eros. In maximus maximus purus, et volutpat eros rutrum et. Nulla fringilla at massa vel varius. In tristique egestas nisl, vitae elementum orci fringilla quis. Ut rutrum mauris erat, a rhoncus orci posuere non. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+          "replies": []
+        },
+        {
+          "name": "Chris Grey",
+          "date": "2019-11-11T19:22:22.511Z",
+          "emailAddress": "chrisgrey@mailinator.co.uk",
+          "message": "Integer volutpat, sapien eu dapibus sodales, ipsum arcu dapibus elit, ac faucibus mi ligula suscipit mauris.",
+          "replies": []
+        }
+      ]
+    }
+  ]
+}
